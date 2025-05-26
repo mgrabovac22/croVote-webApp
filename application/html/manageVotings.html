@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cro vote</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/all-files.css">
+    <link rel="stylesheet" href="/css/manageVotings.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="title">
+                <h1>Cro Vote</h1>
+            </div>
+            <div id="nav">
+                <a href="/login">Login</a>
+                <a href="/about-us">About us</a>
+                <a href="/privacy-policy">Privacy policy</a>
+            </div>
+            <div id="logo">
+                <img id="logoImg" src="/images/logo.png" alt="Logo cro vote" width="150" height="120">
+            </div>
+        </div>
+
+    </header>
+    <main>
+        <section class = "top-section">
+            <h1>Glasanja su ovdje, dobrodošli u aplikaciju!</h1>
+            <button id="addPostBtn" class="add-post-button">Nova objava</button>
+            <form id="newPostForm" class="hidden-form">
+                <label for="name">Naslov objave:</label>
+                <input type="text" id="postName" placeholder="Naslov objave" name="name">
+                <div class="error-message" id="postNameError"></div>
+                <label for="description">Opis objave:</label>
+                <textarea id="postDescription" placeholder="Opis objave" name="description"></textarea>
+                <div class="error-message" id="postDescriptionError"></div>
+                <label for="choice-input">Odabiri za glasanje:</label>
+                <div id="choicesContainer">
+                    <input type="text" class="choice-input" placeholder="Odabir 1">
+                    <div class="error-message choice-error"></div>
+            
+                    <input type="text" class="choice-input" placeholder="Odabir 2">
+                    <div class="error-message choice-error"></div>
+                </div>
+            
+                <button type="button" id="addChoiceBtn" class="add-choice-button">Dodaj još jedan odabir</button>
+                <button type="submit">Objavi</button>
+
+            </form>
+            
+        </section>
+        <section class = "grid-section">
+            <div id="posts-container" class="posts-grid"></div>
+        </section>
+
+        <section class = "bottom-section">
+            <div class="pagination">
+                <button id="prevPage">Prethodna</button>
+                <span id="pageInfo"></span>
+                <button id="nextPage">Sljedeća</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Cro vote. Sva prava pridržana.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="/js/manageVotings.js"></script>
+</html>

@@ -1,0 +1,97 @@
+2025-05-26 15:02:20 INFO: Server started at:https://localhost:8000
+2025-05-26 15:02:20 INFO: HTTP preusmjerivač pokrenut na portu 8080
+2025-05-26 15:02:57 INFO: Server started at:https://localhost:8000
+2025-05-26 15:02:57 INFO: HTTP preusmjerivač pokrenut na portu 8080
+2025-05-26 15:03:07 INFO: JWT valid | Time: 2025-05-26T13:03:07.552Z | Method: GET | Path: /api/posts?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:03:07 INFO: JWT valid | Time: 2025-05-26T13:03:07.553Z | Method: GET | Path: /api/user/voted-posts | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:03:16 INFO: JWT valid | Time: 2025-05-26T13:03:16.106Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:07 INFO: JWT valid | Time: 2025-05-26T13:04:07.895Z | Method: POST | Path: /api/posts/new-post | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:07 INFO: JWT valid | Time: 2025-05-26T13:04:07.911Z | Method: POST | Path: /api/posts/new-choice | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:07 INFO: JWT valid | Time: 2025-05-26T13:04:07.916Z | Method: POST | Path: /api/posts/new-choice | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:08 INFO: JWT valid | Time: 2025-05-26T13:04:08.135Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:54 INFO: JWT valid | Time: 2025-05-26T13:04:54.024Z | Method: POST | Path: /api/posts/new-post | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:54 INFO: JWT valid | Time: 2025-05-26T13:04:54.040Z | Method: POST | Path: /api/posts/new-choice | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:54 INFO: JWT valid | Time: 2025-05-26T13:04:54.044Z | Method: POST | Path: /api/posts/new-choice | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:54 INFO: JWT valid | Time: 2025-05-26T13:04:54.055Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:55 INFO: JWT valid | Time: 2025-05-26T13:04:55.504Z | Method: GET | Path: /api/user/role | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:55 INFO: JWT valid | Time: 2025-05-26T13:04:55.507Z | Method: GET | Path: /api/posts/7 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:55 INFO: JWT valid | Time: 2025-05-26T13:04:55.516Z | Method: GET | Path: /api/choices?postId=7 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:55 INFO: JWT valid | Time: 2025-05-26T13:04:55.520Z | Method: GET | Path: /api/stats?postId=7 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:56 INFO: JWT valid | Time: 2025-05-26T13:04:56.725Z | Method: POST | Path: /api/posts/toggle7 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:57 INFO: JWT valid | Time: 2025-05-26T13:04:57.552Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:59 INFO: JWT valid | Time: 2025-05-26T13:04:59.600Z | Method: GET | Path: /api/posts?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:04:59 INFO: JWT valid | Time: 2025-05-26T13:04:59.601Z | Method: GET | Path: /api/user/voted-posts | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:05:02 INFO: JWT valid | Time: 2025-05-26T13:05:02.820Z | Method: GET | Path: /api/posts?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:05:02 INFO: JWT valid | Time: 2025-05-26T13:05:02.821Z | Method: GET | Path: /api/user/voted-posts | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:25:20 INFO: Server started at:https://localhost:8000
+2025-05-26 15:25:20 INFO: HTTP preusmjerivač pokrenut na portu 8080
+2025-05-26 15:28:48 INFO: Server started at:https://localhost:8000
+2025-05-26 15:28:48 INFO: HTTP preusmjerivač pokrenut na portu 8080
+2025-05-26 15:28:58 INFO: JWT valid | Time: 2025-05-26T13:28:58.834Z | Method: GET | Path: /api/posts?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:28:58 INFO: JWT valid | Time: 2025-05-26T13:28:58.837Z | Method: GET | Path: /api/user/voted-posts | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:30:03 INFO: JWT valid | Time: 2025-05-26T13:30:03.472Z | Method: GET | Path: /api/posts?page=1 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:30:03 INFO: JWT valid | Time: 2025-05-26T13:30:03.473Z | Method: GET | Path: /api/user/voted-posts | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:30:23 INFO: JWT valid | Time: 2025-05-26T13:30:23.267Z | Method: GET | Path: /api/posts?page=1 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:30:23 INFO: JWT valid | Time: 2025-05-26T13:30:23.268Z | Method: GET | Path: /api/user/voted-posts | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:06 INFO: JWT valid | Time: 2025-05-26T13:31:06.958Z | Method: GET | Path: /api/posts/1 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:06 INFO: JWT valid | Time: 2025-05-26T13:31:06.966Z | Method: GET | Path: /api/choices?postId=1 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:10 INFO: JWT valid | Time: 2025-05-26T13:31:10.618Z | Method: GET | Path: /api/posts?page=1 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:10 INFO: JWT valid | Time: 2025-05-26T13:31:10.619Z | Method: GET | Path: /api/user/voted-posts | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:12 INFO: JWT valid | Time: 2025-05-26T13:31:12.311Z | Method: GET | Path: /api/posts/3 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:12 INFO: JWT valid | Time: 2025-05-26T13:31:12.319Z | Method: GET | Path: /api/choices?postId=3 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:15 INFO: JWT valid | Time: 2025-05-26T13:31:15.421Z | Method: GET | Path: /api/posts?page=1 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:15 INFO: JWT valid | Time: 2025-05-26T13:31:15.422Z | Method: GET | Path: /api/user/voted-posts | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:24 INFO: JWT valid | Time: 2025-05-26T13:31:24.839Z | Method: GET | Path: /api/posts/1 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:24 INFO: JWT valid | Time: 2025-05-26T13:31:24.848Z | Method: GET | Path: /api/choices?postId=1 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:29 INFO: JWT valid | Time: 2025-05-26T13:31:29.485Z | Method: POST | Path: /api/vote/hash | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:29 INFO: JWT valid | Time: 2025-05-26T13:31:29.535Z | Method: POST | Path: /api/submit-vote | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:32 INFO: JWT valid | Time: 2025-05-26T13:31:32.645Z | Method: GET | Path: /api/posts?page=1 | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:31:32 INFO: JWT valid | Time: 2025-05-26T13:31:32.646Z | Method: GET | Path: /api/user/voted-posts | OIB: 12345678903 | Email: ana@me.com | Role: Voter | IP: ::ffff:127.0.0.1
+2025-05-26 15:32:42 INFO: JWT valid | Time: 2025-05-26T13:32:42.810Z | Method: GET | Path: /api/posts?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:32:42 INFO: JWT valid | Time: 2025-05-26T13:32:42.811Z | Method: GET | Path: /api/user/voted-posts | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:32:52 INFO: JWT valid | Time: 2025-05-26T13:32:52.929Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:08 INFO: JWT valid | Time: 2025-05-26T13:33:08.726Z | Method: GET | Path: /api/user/role | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:08 INFO: JWT valid | Time: 2025-05-26T13:33:08.733Z | Method: GET | Path: /api/posts/6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:08 INFO: JWT valid | Time: 2025-05-26T13:33:08.739Z | Method: GET | Path: /api/choices?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:08 INFO: JWT valid | Time: 2025-05-26T13:33:08.746Z | Method: GET | Path: /api/stats?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:37 INFO: JWT valid | Time: 2025-05-26T13:33:37.975Z | Method: GET | Path: /api/user/role | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:37 INFO: JWT valid | Time: 2025-05-26T13:33:37.982Z | Method: GET | Path: /api/posts/6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:37 INFO: JWT valid | Time: 2025-05-26T13:33:37.988Z | Method: GET | Path: /api/choices?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:37 INFO: JWT valid | Time: 2025-05-26T13:33:37.997Z | Method: GET | Path: /api/stats?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:41 INFO: JWT valid | Time: 2025-05-26T13:33:41.413Z | Method: GET | Path: /api/user/role | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:41 INFO: JWT valid | Time: 2025-05-26T13:33:41.419Z | Method: GET | Path: /api/posts/6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:41 INFO: JWT valid | Time: 2025-05-26T13:33:41.426Z | Method: GET | Path: /api/choices?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:41 INFO: JWT valid | Time: 2025-05-26T13:33:41.432Z | Method: GET | Path: /api/stats?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:43 INFO: JWT valid | Time: 2025-05-26T13:33:43.586Z | Method: POST | Path: /api/posts/toggle6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:48 INFO: JWT valid | Time: 2025-05-26T13:33:48.421Z | Method: GET | Path: /api/posts?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:48 INFO: JWT valid | Time: 2025-05-26T13:33:48.423Z | Method: GET | Path: /api/user/voted-posts | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:55 INFO: JWT valid | Time: 2025-05-26T13:33:55.278Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:56 INFO: JWT valid | Time: 2025-05-26T13:33:56.547Z | Method: GET | Path: /api/user/role | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:56 INFO: JWT valid | Time: 2025-05-26T13:33:56.555Z | Method: GET | Path: /api/posts/6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:56 INFO: JWT valid | Time: 2025-05-26T13:33:56.561Z | Method: GET | Path: /api/choices?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:56 INFO: JWT valid | Time: 2025-05-26T13:33:56.566Z | Method: GET | Path: /api/stats?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:57 INFO: JWT valid | Time: 2025-05-26T13:33:57.557Z | Method: POST | Path: /api/posts/toggle6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:58 INFO: JWT valid | Time: 2025-05-26T13:33:58.978Z | Method: GET | Path: /api/posts?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:33:58 INFO: JWT valid | Time: 2025-05-26T13:33:58.979Z | Method: GET | Path: /api/user/voted-posts | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:00 INFO: JWT valid | Time: 2025-05-26T13:34:00.632Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:06 INFO: JWT valid | Time: 2025-05-26T13:34:06.346Z | Method: GET | Path: /api/user/role | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:06 INFO: JWT valid | Time: 2025-05-26T13:34:06.351Z | Method: GET | Path: /api/posts/6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:06 INFO: JWT valid | Time: 2025-05-26T13:34:06.356Z | Method: GET | Path: /api/choices?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:06 INFO: JWT valid | Time: 2025-05-26T13:34:06.363Z | Method: GET | Path: /api/stats?postId=6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:18 INFO: JWT valid | Time: 2025-05-26T13:34:18.144Z | Method: PUT | Path: /api/posts-admin/6 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:18 INFO: JWT valid | Time: 2025-05-26T13:34:18.218Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:49 INFO: JWT valid | Time: 2025-05-26T13:34:49.546Z | Method: POST | Path: /api/posts/new-post | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:49 INFO: JWT valid | Time: 2025-05-26T13:34:49.576Z | Method: POST | Path: /api/posts/new-choice | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:49 INFO: JWT valid | Time: 2025-05-26T13:34:49.581Z | Method: POST | Path: /api/posts/new-choice | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:49 INFO: JWT valid | Time: 2025-05-26T13:34:49.601Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:58 INFO: JWT valid | Time: 2025-05-26T13:34:58.719Z | Method: GET | Path: /api/user/role | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:58 INFO: JWT valid | Time: 2025-05-26T13:34:58.727Z | Method: GET | Path: /api/posts/8 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:58 INFO: JWT valid | Time: 2025-05-26T13:34:58.735Z | Method: GET | Path: /api/choices?postId=8 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:34:58 INFO: JWT valid | Time: 2025-05-26T13:34:58.742Z | Method: GET | Path: /api/stats?postId=8 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:35:01 INFO: JWT valid | Time: 2025-05-26T13:35:01.818Z | Method: GET | Path: /api/posts-admin?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:35:07 INFO: JWT valid | Time: 2025-05-26T13:35:07.950Z | Method: GET | Path: /api/current-user | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:35:07 INFO: JWT valid | Time: 2025-05-26T13:35:07.965Z | Method: GET | Path: /api/user/totp/enabled/00000000001 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:35:17 INFO: JWT valid | Time: 2025-05-26T13:35:17.387Z | Method: POST | Path: /api/user/totp/enable/00000000001 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:35:17 INFO: JWT valid | Time: 2025-05-26T13:35:17.494Z | Method: GET | Path: /api/user/totp/enabled/00000000001 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:36:08 INFO: JWT valid | Time: 2025-05-26T13:36:08.497Z | Method: GET | Path: /api/posts?page=1 | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1
+2025-05-26 15:36:08 INFO: JWT valid | Time: 2025-05-26T13:36:08.498Z | Method: GET | Path: /api/user/voted-posts | OIB: 00000000001 | Email: peropetar12345678@gmail.com | Role: Admin | IP: ::ffff:127.0.0.1

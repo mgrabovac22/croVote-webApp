@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cro vote</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/all-files.css">
+    <link rel="stylesheet" href="/css/profile.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="title">
+                <h1>Cro Vote</h1>
+            </div>
+            <div id="nav">
+                <a href="/login">Login</a>
+                <a href="/about-us">About us</a>
+                <a href="/privacy-policy">Privacy policy</a>
+            </div>
+            <div id="logo">
+                <img id="logoImg" src="/images/logo.png" alt="Logo cro vote" width="150" height="120">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="profile-container">
+            <h2>Vaši podaci</h2>
+            <div id="profile-details">
+                <p><strong>OIB:</strong> <span id="profile-oib"></span></p>
+                <p><strong>Ime:</strong> <span id="profile-name"></span></p>
+                <p><strong>Prezime:</strong> <span id="profile-surname"></span></p>
+                <p><strong>Email:</strong> <span id="profile-email"></span></p>
+                <p><strong>Uloga:</strong> <span id="profile-type"></span></p>
+            </div>
+            <div id="totp-section">
+                <button id="enable-totp-button" style="display: none;">Omogući 2FA</button>
+                <button id="disable-totp-button" style="display: none;">Onemogući 2FA</button>
+                <p id="totp-status" style="color: #007acc; font-weight: 600;"></p>
+                <div id="totp-info" style="display: none;">
+                    <p>Tajni kluč: <span id="totp-secret"></span></p>
+                    <img id="totp-qr" alt="qr-code"/>
+                </div>
+            </div>            
+        </div>
+    </main>    
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Cro vote. Sva prava pridržana.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script src="/js/profile.js"></script>
+</html>

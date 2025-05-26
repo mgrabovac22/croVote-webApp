@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cro vote</title>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfW5DUrAAAAAAcgKVIkI2DCgzeHVZwlPoe9Eu0e"></script>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/all-files.css">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <div id="title">
+                <h1>Cro Vote</h1>
+            </div>
+            <div id="nav">
+            </div>
+            <div id="logo">
+                <img id="logoImg" src="/images/logo.png" alt="Logo cro vote">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="forma">
+            <form action="/api/login" method="post">
+                <label for="oib">Unesite oib:</label>
+                <input name="oib" type="text">
+                <label for="password">Unesite lozinku:</label>
+                <input name="password" type="password">
+                <input type="submit" value="Prijavi se">
+                <p id="lblError" style="color: red;"></p>
+                <div id="login-help">
+                    <a href="/change-password">Ne znaš lozinku? Promijeni je.</a>
+                    <a href="/register">Nemaš račun? Registriraj se.</a>
+                </div>
+                <input type="hidden" name="recaptcha_token" id="recaptcha-token">
+            </form>
+            <div id="totpModal" class="modal">
+                <div class="modal-content">
+                    <span class="close" id="closeTotp">&times;</span>
+                    <h2>Unesite TOTP kod</h2>
+                    <div class="totp-inputs">
+                        <input type="text" maxlength="1" id="totp-1" class="totp-input">
+                        <input type="text" maxlength="1" id="totp-2" class="totp-input">
+                        <input type="text" maxlength="1" id="totp-3" class="totp-input">
+                        <input type="text" maxlength="1" id="totp-4" class="totp-input">
+                        <input type="text" maxlength="1" id="totp-5" class="totp-input">
+                        <input type="text" maxlength="1" id="totp-6" class="totp-input">
+                    </div>
+                    <p id="totpError" style="color: red;"></p>
+                </div>
+            </div>                       
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Cro vote. Sva prava pridržana.</p>
+            <div class="social-links">
+                <a href="https://www.facebook.com" target="_blank">Facebook</a> |
+                <a href="https://www.twitter.com" target="_blank">Twitter</a> |
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="/js/login.js"></script>
+</html>

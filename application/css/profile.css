@@ -1,0 +1,119 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    min-height: calc(100vh - 200px);
+    background-image: url(/images/background.png);
+    background-size: cover;
+    background-position: center;
+}
+
+#profile-container {
+    background-color: #ffffff;
+    padding: 50px 60px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+    max-width: 700px;
+    width: 100%;
+    border: 2px solid #007acc;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+#profile-container h2 {
+    color: #dc143c;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 15px;
+}
+
+#profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+#profile-details p {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+    padding: 16px 20px;
+    background-color: #f5faff;
+    border-left: 6px solid #007acc;
+    border-radius: 6px;
+    font-weight: 500;
+}
+
+#profile-details strong {
+    color: #007acc;
+    margin-right: 8px;
+    font-weight: 600;
+}
+
+#totp-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-top: 2px solid #eee;
+    margin-top: 20px;
+}
+
+#totp-section button {
+    padding: 12px 24px;
+    background-color: #007acc;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#totp-section button:hover {
+    background-color: #005fa3;
+}
+
+#totp-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+    background-color: #f5faff;
+    border: 1px solid #007acc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#totp-secret {
+    font-size: 18px;
+    font-weight: 600;
+    color: #dc143c;
+    word-break: break-all;
+}
+
+#totp-info p {
+    margin: 0;
+    color: #333;
+}
+
+#totp-qr {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #007acc;
+    border-radius: 8px;
+    background-color: white;
+}
+
